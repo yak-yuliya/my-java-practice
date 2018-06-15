@@ -1,3 +1,5 @@
+package workingWithObjects;
+
 public class Vehicle {
     private String name;
     private String model;
