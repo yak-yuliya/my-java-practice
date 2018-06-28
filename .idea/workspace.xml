@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list id="36cb72b8-68ab-4a22-bac8-f60390855543" name="hashcode branch" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeJava/Vehicle.class" beforeDir="false" />
+    </list>
+    <list default="true" id="a2763a04-f9c0-448d-8915-b935c7332660" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/loremipsum.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparableInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparableInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullPointerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/castObjectAsDifferentType/ClothingItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/castObjectAsDifferentType/Shirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creatingCustomClasses/OlivePress116.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creatingCustomClasses/OlivePress117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creatingCustomClasses/model116/Olive116.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creatingCustomClasses/model117/Olive117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creatingCustomClasses/model117/OliveNameEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dBConnection/Main111ConnectHSQLDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dBConnection/Main112ConnectMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dBConnection/Main113StaticSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataCollections/Main211DataStructuresOverview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/Main113UsingAbstractClassesAndMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/OlivePress111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/OlivePress112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/PressInterface112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/model111/Kalamata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/model111/Ligurian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/model111/OliveNameEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/model112/Kalamata112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/model112/Ligurian112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/model112/Olive112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/model112/OliveColor112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workingWithInheritance/model112/OliveNameEnum112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticeJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PracticeJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeJava/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeJava/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creatingCustomClasses/MainDeclaringAndUsingEnumTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatingCustomClasses/Main117DeclaringAndUsingEnumTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creatingCustomClasses/MainUsingStaticVariablesAsConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creatingCustomClasses/Main116UsingStaticVariablesAsConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usingCommonJavaLibraries/MainManagingFilesWithApacheCommonFileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usingCommonJavaLibraries/Main113ManagingFilesWithApacheCommonFileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usingCommonJavaLibraries/MainManagingFilesWithJava7sNewIOLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usingCommonJavaLibraries/Main112ManagingFilesWithJava7sNewIOLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usingCommonJavaLibraries/MainManagingFilesWithOriginalFileClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usingCommonJavaLibraries/Main111ManagingFilesWithOriginalFileClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usingCommonJavaLibraries/MainReadingATextFileOverTheInternet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usingCommonJavaLibraries/Main114ReadingATextFileOverTheInternet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workingWithInheritance/Kalamata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workingWithInheritance/MainCreatingAndImplementingInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workingWithInheritance/Main112CreatingAndImplementingInterfaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workingWithInheritance/MainCreatingAndImplementingInterfaces2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workingWithInheritance/Main112CreatingAndImplementingInterfaces2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workingWithInheritance/MainExtendingClassesAndOverridingMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workingWithInheritance/Main111ExtendingClassesAndOverridingMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workingWithInheritance/MainUsingAbstractClassesAndMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workingWithInheritance/Olive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workingWithInheritance/model111/Olive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workingWithInheritance/OliveColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/workingWithInheritance/model111/OliveColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workingWithInheritance/OliveName.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.idea/shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PracticeJava$Main.coverage" NAME="Main Coverage Results" MODIFIED="1524396381634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainUsingTwoDimentionalArrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataCollections/MainUsingTwoDimentionalArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main211DataStructuresOverview.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataCollections/Main211DataStructuresOverview.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NullPointerException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NullPointerException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComparableInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ComparableInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComparableInterface2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ComparableInterface2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main112ConnectMySQL.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dBConnection/Main112ConnectMySQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main113StaticSQL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dBConnection/Main113StaticSQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClothingItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/castObjectAsDifferentType/ClothingItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main111ExtendingClassesAndOverridingMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/Main111ExtendingClassesAndOverridingMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>114</find>
+      <find>&quot;Ligurian&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Olive116.LIGURIAN</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/model/Olive.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/Main114StoringDataInInstanceVariables.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/OlivePress114.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/model114/Olive114.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/utilities/OlivePress115.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/Main115UningConstructorMethods.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/model115/Olive115.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/Olive116.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/model116/Olive116.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/OlivePress115.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/OlivePress116.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/Main116UsingStaticVariablesAsConstants.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/OlivePress117.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/Main117DeclaringAndUsingEnumTypes.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/model117/Olive117.java" />
+        <option value="$PROJECT_DIR$/src/creatingCustomClasses/model117/OliveNameEnum.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model111/OliveNameEnum.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model111/Olive111.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/OlivePress111.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model111/Olive.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/Kalamata.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model111/Ligurian.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model111/Kalamata.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/Main111ExtendingClassesAndOverridingMethods.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/Main112CreatingAndImplementingInterfaces2.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/PressInterface.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/OlivePress112112.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/OliveColor.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model112/Kalamata.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model112/Olive.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model112/OliveNameEnum.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model112/OliveColor.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model112/OliveColor112.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model112/OliveNameEnum112.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/PressInterface112.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/MainUsingAbstractClassesAndMethods113.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/Main113UsingAbstractClassesAndMethods.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/Main112CreatingAndImplementingInterfaces.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model112/Ligurian112.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model112/Kalamata112.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/OlivePress112.java" />
+        <option value="$PROJECT_DIR$/src/workingWithInheritance/model112/Olive112.java" />
+        <option value="$PROJECT_DIR$/files/loremipsum.txt" />
+        <option value="$PROJECT_DIR$/src/usingCommonJavaLibraries/Main111ManagingFilesWithOriginalFileClass.java" />
+        <option value="$PROJECT_DIR$/src/usingCommonJavaLibraries/Main112ManagingFilesWithJava7sNewIOLibrary.java" />
+        <option value="$PROJECT_DIR$/src/usingCommonJavaLibraries/Main113ManagingFilesWithApacheCommonFileUtils.java" />
+        <option value="$PROJECT_DIR$/src/usingCommonJavaLibraries/Main114ReadingATextFileOverTheInternet.java" />
+        <option value="$PROJECT_DIR$/src/dataCollections/Main211DataStructuresOverview.java" />
+        <option value="$PROJECT_DIR$/src/NullPointerException.java" />
+        <option value="$PROJECT_DIR$/src/ComparableInterface.java" />
+        <option value="$PROJECT_DIR$/src/ComparableInterface2.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1878" />
+    <option name="y" value="-186" />
+    <option name="width" value="1876" />
+    <option name="height" value="1059" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>ConstantConditions</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Problems">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PracticeJava" type="cbb8eebc:String" user="PracticeJava" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PracticeJava" type="cbb8eebc:String" user="PracticeJava" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PracticeJava" type="cbb8eebc:String" user="PracticeJava" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="workingWithInheritance" type="cbb8eebc:String" user="workingWithInheritance" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PracticeJava" type="cbb8eebc:String" user="PracticeJava" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PracticeJava" type="cbb8eebc:String" user="PracticeJava" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PracticeJava" type="cbb8eebc:String" user="PracticeJava" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="creatingCustomClasses" type="cbb8eebc:String" user="creatingCustomClasses" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PracticeJava" type="cbb8eebc:String" user="PracticeJava" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="dataCollections" type="cbb8eebc:String" user="dataCollections" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PracticeJava" type="cbb8eebc:String" user="PracticeJava" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="exceptionHandlingAndDebugging" type="cbb8eebc:String" user="exceptionHandlingAndDebugging" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PracticeJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticeJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeJava" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticeJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeJava" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticeJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticeJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="castObjectAsDifferentType" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticeJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dBConnection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticeJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="workingWithInheritance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticeJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="workingWithObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="protected" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dBConnection" />
+      <recent name="$PROJECT_DIR$/src/castObjectAsDifferentType" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="workingWithInheritance.model112" />
+      <recent name="workingWithInheritance" />
+      <recent name="workingWithInheritance.model111" />
+      <recent name="creatingCustomClasses.model117" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src/workingWithInheritance" />
+      <recent name="$PROJECT_DIR$/src/creatingCustomClasses" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ComparableInterface">
+    <configuration name="ComparableInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComparableInterface" />
+      <module name="PracticeJava" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="workingWithObjects.Main" />
+      <module name="PracticeJava" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="Main111ManagingFilesWithOriginalFileClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="usingCommonJavaLibraries.Main111ManagingFilesWithOriginalFileClass" />
+      <module name="PracticeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usingCommonJavaLibraries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main112CreatingAndImplementingInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workingWithInheritance.Main112CreatingAndImplementingInterfaces" />
+      <module name="PracticeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workingWithInheritance.model112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main112CreatingAndImplementingInterfaces2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workingWithInheritance.Main112CreatingAndImplementingInterfaces2" />
+      <module name="PracticeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workingWithInheritance.model111.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main112ManagingFilesWithJava7sNewIOLibrary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="usingCommonJavaLibraries.Main112ManagingFilesWithJava7sNewIOLibrary" />
+      <module name="PracticeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usingCommonJavaLibraries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main113ManagingFilesWithApacheCommonFileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="usingCommonJavaLibraries.Main113ManagingFilesWithApacheCommonFileUtils" />
+      <module name="PracticeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usingCommonJavaLibraries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main117DeclaringAndUsingEnumTypes" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creatingCustomClasses.Main117DeclaringAndUsingEnumTypes" />
+      <module name="PracticeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creatingCustomClasses.model116.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main117DeclaringAndUsingEnumTypes" />
+      <item itemvalue="Application.Main112CreatingAndImplementingInterfaces2" />
+      <item itemvalue="Application.Main112CreatingAndImplementingInterfaces" />
+      <item itemvalue="Application.Main111ManagingFilesWithOriginalFileClass" />
+      <item itemvalue="Application.Main112ManagingFilesWithJava7sNewIOLibrary" />
+      <item itemvalue="Application.Main113ManagingFilesWithApacheCommonFileUtils" />
+      <item itemvalue="Application.ComparableInterface" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ComparableInterface" />
+        <item itemvalue="Application.Main113ManagingFilesWithApacheCommonFileUtils" />
+        <item itemvalue="Application.Main112ManagingFilesWithJava7sNewIOLibrary" />
+        <item itemvalue="Application.Main111ManagingFilesWithOriginalFileClass" />
+        <item itemvalue="Application.Main112CreatingAndImplementingInterfaces" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2763a04-f9c0-448d-8915-b935c7332660" name="Default" comment="" />
+      <changelist id="36cb72b8-68ab-4a22-bac8-f60390855543" name="hashcode branch" comment="" />
+      <created>1523630318555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523630318555</updated>
+      <workItem from="1523630320562" duration="3704000" />
+      <workItem from="1523961402063" duration="19452000" />
+      <workItem from="1525017654983" duration="13601000" />
+      <workItem from="1525261894472" duration="603000" />
+      <workItem from="1525336721726" duration="184000" />
+      <workItem from="1525681564986" duration="1194000" />
+      <workItem from="1528121132802" duration="3249000" />
+      <workItem from="1528188951601" duration="214000" />
+      <workItem from="1528189259721" duration="220000" />
+      <workItem from="1528189670273" duration="34000" />
+      <workItem from="1528189769149" duration="2000" />
+      <workItem from="1528205828442" duration="19201000" />
+      <workItem from="1528872442278" duration="8072000" />
+      <workItem from="1528983008843" duration="61000" />
+      <workItem from="1528983118624" duration="109000" />
+      <workItem from="1528983297932" duration="73000" />
+      <workItem from="1528983412226" duration="69000" />
+      <workItem from="1528983571619" duration="53000" />
+      <workItem from="1528983852398" duration="58000" />
+      <workItem from="1528983918986" duration="52539000" />
+      <workItem from="1530169803910" duration="291000" />
+    </task>
+    <task id="LOCAL-00001" summary="hashcode">
+      <created>1524052257662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524052257662</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hashcode branch">
+      <created>1528879206844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528879206844</updated>
+    </task>
+    <task id="LOCAL-00003" summary="boyan was here">
+      <created>1529050132057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529050132057</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="122983000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1366" y="121" width="1280" height="709" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936507" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3820034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28279388" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2835314" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.87677723" visible="true" weight="0.26655897" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" sideWeight="0.123222746" side_tool="true" visible="true" weight="0.26655897" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5354523" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32956383" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32756633" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.26066896" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hashcode" />
+    <MESSAGE value="hashcode branch" />
+    <MESSAGE value="boyan was here" />
+    <option name="LAST_COMMIT_MESSAGE" value="boyan was here" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="welcome" />
+        <watch expression="welcome" />
+        <watch expression="chars" />
+        <watch expression="i" />
+        <watch expression="length" />
+        <watch expression="chars" />
+        <watch expression="chars[i]" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i==7</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/Olive.java" />
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/model112/OliveColor112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creatingCustomClasses/OlivePress114.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creatingCustomClasses/OlivePress115.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creatingCustomClasses/OlivePress116.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/model112/Ligurian112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/model112/OliveNameEnum112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/OlivePress111.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/model112/Olive112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/model112/Kalamata112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/model111/Kalamata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/model111/OliveNameEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/target.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/loremipsum.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="541" selection-start-column="541" selection-end-column="541" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/usingCommonJavaLibraries/Main111ManagingFilesWithOriginalFileClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="1267" column="23" selection-start-line="1267" selection-start-column="23" selection-end-line="1267" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/usingCommonJavaLibraries/Main112ManagingFilesWithJava7sNewIOLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/usingCommonJavaLibraries/Main113ManagingFilesWithApacheCommonFileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/usingCommonJavaLibraries/Main114ReadingATextFileOverTheInternet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creatingCustomClasses/Main116UsingStaticVariablesAsConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creatingCustomClasses/Main117DeclaringAndUsingEnumTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creatingCustomClasses/OlivePress117.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creatingCustomClasses/Main115UningConstructorMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creatingCustomClasses/Main114StoringDataInInstanceVariables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithObjects/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithObjects/DateTimeToPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creatingCustomClasses/model117/Olive117.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creatingCustomClasses/model/Olive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="33" selection-start-line="33" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/Main112CreatingAndImplementingInterfaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/Main112CreatingAndImplementingInterfaces2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/Main113UsingAbstractClassesAndMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/MainInheritanceAndPolymorphism.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/OlivePress112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/PressInterface112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="1464" column="15" selection-start-line="1464" selection-start-column="15" selection-end-line="1464" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StringComparison.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creatingCustomClasses/model117/OliveNameEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataCollections/MainLoopingThroughCollectionsWithIteratorsForEach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataCollections/MainManagingResizableArraysWithArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataCollections/MainManagingUnorderedDataWithHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataCollections/MainSimpleArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataCollections/MainUsingTwoDimentionalArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataCollections/Main211DataStructuresOverview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NullPointerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workingWithInheritance/Main111ExtendingClassesAndOverridingMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/castObjectAsDifferentType/ClothingItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComparableInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComparableInterface2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dBConnection/Main113StaticSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dBConnection/Main112ConnectMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PracticeJava</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-io-2.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

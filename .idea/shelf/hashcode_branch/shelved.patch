@@ -1,0 +1,1512 @@
+Index: src/workingWithInheritance/MainExtendingClassesAndOverridingMethods.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/workingWithInheritance/MainExtendingClassesAndOverridingMethods.java	(date 1528363146000)
++++ src/workingWithInheritance/MainExtendingClassesAndOverridingMethods.java	(date 1528363146000)
+@@ -0,0 +1,24 @@
++package workingWithInheritance;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class MainExtendingClassesAndOverridingMethods {
++
++    public static void main(String[] args) {
++
++// insterad of passing a long value as a color, i am instead using a new enumeration, named OliveColor
++        List<Olive> olives = new ArrayList<>();
++//        olives.add(new Kalamata());
++//        olives.add(new Olive(OliveName.KALAMATA, OliveColor.PURPLE, 3));
++//        olives.add(new Olive(OliveName.KALAMATA, OliveColor.BLACK, 2));
++//        olives.add(new Olive(OliveName.KALAMATA, OliveColor.BLACK, 2));
++//        olives.add(new Olive(OliveName.KALAMATA, OliveColor.BLACK, 2));
++//        olives.add(new Olive(OliveName.KALAMATA, OliveColor.BLACK, 2));
++//
++//        OlivePress press = new OlivePress();
++//        int totalOil = press.getOil(olives);
++
++//        System.out.println("You got " + totalOil + " units of oil");
++    }
++}
+Index: src/workingWithInheritance/MainInheritanceAndPolymorphism.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/workingWithInheritance/MainInheritanceAndPolymorphism.java	(date 1525034120000)
++++ src/workingWithInheritance/MainInheritanceAndPolymorphism.java	(date 1525034120000)
+@@ -0,0 +1,22 @@
++package workingWithInheritance;
++
++public class MainInheritanceAndPolymorphism {
++
++    public static void main(String[] args) {
++
++
++        System.out.println("Array of primitives:");
++
++
++        System.out.println("Array of strings:");
++
++
++        System.out.println("Setting an initial size");
++
++
++        System.out.println("Copying an array");
++
++
++
++    }
++}
+Index: src/workingWithInheritance/MainUsingAbstractClassesAndMethods.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/workingWithInheritance/MainUsingAbstractClassesAndMethods.java	(date 1525034120000)
++++ src/workingWithInheritance/MainUsingAbstractClassesAndMethods.java	(date 1525034120000)
+@@ -0,0 +1,22 @@
++package workingWithInheritance;
++
++public class MainUsingAbstractClassesAndMethods {
++
++    public static void main(String[] args) {
++
++
++        System.out.println("Array of primitives:");
++
++
++        System.out.println("Array of strings:");
++
++
++        System.out.println("Setting an initial size");
++
++
++        System.out.println("Copying an array");
++
++
++
++    }
++}
+Index: src/workingWithObjects/DateTimeToPlay.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/workingWithObjects/DateTimeToPlay.java	(date 1525033612000)
++++ src/workingWithObjects/DateTimeToPlay.java	(date 1525033612000)
+@@ -0,0 +1,39 @@
++package workingWithObjects;
++
++import java.text.DateFormat;
++import java.time.LocalDate;
++import java.time.LocalDateTime;
++import java.time.LocalTime;
++import java.time.format.DateTimeFormatter;
++import java.util.Date;
++import java.util.GregorianCalendar;
++
++public class DateTimeToPlay {
++
++    public static void whatIsADatyToday() {
++        Date d = new Date();
++        System.out.println(d);
++    }
++
++    public static void gregorianCalender() {
++        GregorianCalendar gc = new GregorianCalendar(1982, 11, 2);
++        gc.add(GregorianCalendar.DATE, 1);
++        Date d2 = gc.getTime();
++        System.out.println(gc);
++        System.out.println(d2 + "\n" + " Months calculation start from 0!!!!");
++
++        DateFormat df = DateFormat.getDateInstance(DateFormat.FULL);
++        System.out.println(df.format(d2));
++
++        LocalDate ld = LocalDate.now();
++        LocalDateTime ldt = LocalDateTime.now();
++        LocalTime lt = LocalTime.now();
++        System.out.println(ld);
++        System.out.println("Unix timestamp, as it is represented in some DBs" + ldt);
++        System.out.println(lt);
++
++        DateTimeFormatter dtf = DateTimeFormatter.ISO_DATE;
++        System.out.println(dtf.format(ld));
++    }
++
++}
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\n\n    public static void main(String[] args) {\n        Vehicle v1 = new Vehicle();\n        v1.setName(\"BMW\");\n        v1.setModel(\"M3\");\n        v1.setLitres(6);\n\n        Vehicle v2 = new Vehicle();\n        v2.setName(\"Audi\");\n        v2.setModel(\"A6\");\n        v2.setLitres(10);\n\n        Vehicle v3 = (Vehicle) v2;\n\n\n        String var1 = \"1000\"; // Casting to integer\n        int var2 = Integer.parseInt(var1); //1st method\n        //   int var3 = 0;\n        //   Convert.string2int(var1, var3); //2nd method\n\n        //  int var4 = (Integer) var1; //Object conversion method\n\n        System.out.println(var2);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Main.java	(date 1524053207000)
++++ src/Main.java	(date 1525033814000)
+@@ -1,6 +1,11 @@
++import workingWithObjects.DateTimeToPlay;
++import workingWithObjects.Vehicle;
++
+ public class Main {
+ 
+     public static void main(String[] args) {
++
++
+         Vehicle v1 = new Vehicle();
+         v1.setName("BMW");
+         v1.setModel("M3");
+@@ -13,14 +18,51 @@
+ 
+         Vehicle v3 = (Vehicle) v2;
+ 
+-
+         String var1 = "1000"; // Casting to integer
+         int var2 = Integer.parseInt(var1); //1st method
+-        //   int var3 = 0;
+-        //   Convert.string2int(var1, var3); //2nd method
+-
+-        //  int var4 = (Integer) var1; //Object conversion method
+-
++        int var3 = 0;
++        // Convert.string2int(var1, var3); //2nd method
++        //int var4 = (Integer) var1; //Object conversion method
++        System.out.println(v2);
++        System.out.println(v1);
++        System.out.println(var1);
+         System.out.println(var2);
++        System.out.println(var3);
++        System.out.println();
++
++
++        String str1 = "Hello";
++        String str2 = "hello";
++        StringComparison obj1 = new StringComparison();
++        obj1.StringComparisonNotTheBest(str1, str2);
++//        StringComparison obj2 = new StringComparison();
++        obj1.StringComparisonBetter(str1, str2);
++        String str3 = "Hello ";
++        String str4 = "World";
++        String str5 = "Hello world";
++        obj1.StringComparisonBetter(str3 + str4, str5);
++        String str6 = "Some long string with spaces      ";
++        String str7 = "with spaces";
++        obj1.ParsingStrings(str6, str7);
++        StringComparison obj2 = new StringComparison();
++        obj2.IndexOf(str6, "long");
++        StringComparison obj3 = new StringComparison();
++        obj3.Substring(str6, 11);
++        obj3.Trim("Trimmed string: " + str6);
++        System.out.println(str6.hashCode());
++        System.out.println(str1.hashCode());
++        System.out.println(str3.hashCode());
++        System.out.println((str4 + str5).hashCode());
++        System.out.println(str6.toUpperCase());
++        System.out.println(str1.replaceAll("o", "O"));
++        System.out.println();
++        System.out.println();
++
++
++        DateTimeToPlay dateTimeToPlay = new DateTimeToPlay();
++        dateTimeToPlay.whatIsADatyToday();
++        dateTimeToPlay.gregorianCalender();
++
++
+     }
+ }
+Index: src/creatingCustomClasses/model/Olive.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/model/Olive.java	(date 1528877682000)
++++ src/creatingCustomClasses/model/Olive.java	(date 1528877682000)
+@@ -0,0 +1,55 @@
++package creatingCustomClasses.model;
++
++public class Olive {
++
++    // common java vocabulary
++    // a model class defines your data model
++    //for the test 114
++
++    //this class does not have an explicit constructor method, but thats fine
++    //because the java compilor creates it for me
++
++    //if you dont put static word - it is an instance method
++    //class, that is designed to encapsulate data, such as our model class, typically will have instance methods, known as getters and setters
++    //getter - accessor method, simply return the value
++    //setter - modifier method, receive an argument
++    //this - to distinguish a variable, that is member of an instance from the argument (String name as a method "input" themod)
++    // to fully incapsulate it and make sure no other part of application has access to it we make these variables private
++    //    public String name = "Kalamata";
++    //    public long color = 0x2E0854;
++    //    public int oil = 3;
++    //now the only access to them is through the getters and setters
++
++    private String name = "Kalamata";
++    private long color = 0x2E0854;
++    private int oil = 3;
++
++    public String getName() {
++        return name;
++    }
++
++
++    // this.name - instance value
++    // name - argument;
++    //instance value we assign to argument
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public long getColor() {
++        return color;
++    }
++
++    public void setColor(long color) {
++        this.color = color;
++    }
++
++    public int crush() {
++        System.out.println("Ouch!");
++        return oil;
++    }
++
++    public void setOil(int oil) {
++        this.oil = oil;
++    }
++}
+Index: src/Vehicle.java
+===================================================================
+--- src/Vehicle.java	(date 1524053207000)
++++ src/workingWithObjects/Vehicle.java	(date 1525033612000)
+@@ -1,3 +1,5 @@
++package workingWithObjects;
++
+ public class Vehicle {
+     private String name;
+     private String model;
+Index: src/creatingCustomClasses/OlivePress114.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/OlivePress114.java	(date 1528877268000)
++++ src/creatingCustomClasses/OlivePress114.java	(date 1528877268000)
+@@ -0,0 +1,31 @@
++package creatingCustomClasses;
++
++import creatingCustomClasses.model.Olive;
++
++import java.util.List;
++
++public class OlivePress114 {
++
++    // public method which will be called from anywhere from application and will return integer
++    //it will receive an argument - a list of olives (from collection)
++
++    //if you dont put static word - it is an instance method
++
++    public int getOil(List<Olive> olives) {
++
++        //we declare an integer value and we name it oil
++        //we initialize it to a value of 0
++        int totalOil = 0;
++
++        //we create a for loop and we loop through the collection of olives
++        //it is going to return a value and it is going to output a string
++        for (Olive o : olives) {
++            System.out.println(o.name);
++            totalOil += o.crush();
++        }
++
++        //return 0; - if it is still in process of development and we do not know what we will return later
++        return totalOil;
++
++    }
++}
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(date 1528879040000)
++++ .gitignore	(date 1528879040000)
+@@ -0,0 +1,4 @@
++.idea/
++out/
++out/production/
++out/*
+Index: src/workingWithInheritance/MainCreatingAndImplementingInterfaces2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/workingWithInheritance/MainCreatingAndImplementingInterfaces2.java	(date 1528287453000)
++++ src/workingWithInheritance/MainCreatingAndImplementingInterfaces2.java	(date 1528287453000)
+@@ -0,0 +1,9 @@
++package workingWithInheritance;
++
++public class MainCreatingAndImplementingInterfaces2 extends MainCreatingAndImplementingInterfaces {
++
++    //In this class you cannot reach private methods
++    public static void main(String[] args) {
++
++    }
++}
+Index: src/workingWithInheritance/OliveColor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/workingWithInheritance/OliveColor.java	(date 1528291604000)
++++ src/workingWithInheritance/OliveColor.java	(date 1528291604000)
+@@ -0,0 +1,27 @@
++package workingWithInheritance;
++
++public enum OliveColor {
++
++//enum has three options, each has assiciated name and long color value
++
++    PURPLE("Purple",0x2E0854),BLACK("Black",0x000000),
++
++    GREEN("Green",0x00FF00);
++
++    String name;
++    long color;
++
++    // the constructor method receives both values and saves them
++
++    OliveColor(String name, long color) {
++        this.name = name;
++        this.color = color;
++    }
++
++    // and the toString method returns just the name
++
++    @Override
++    public String toString() {
++        return name;
++    }
++}
+Index: src/workingWithInheritance/Olive.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/workingWithInheritance/Olive.java	(date 1528287963000)
++++ src/workingWithInheritance/Olive.java	(date 1528287963000)
+@@ -0,0 +1,22 @@
++package workingWithInheritance;
++
++public class Olive {
++
++    private double volume;
++    private boolean crushed = false;
++
++    public double getVolume() {
++        double c;
++        c = 0;
++        return c;
++    }
++
++    public void setVolume() {
++        //
++    }
++
++    public void crush() {
++        this.crushed = true;
++    }
++
++}
+Index: src/workingWithInheritance/OliveName.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/workingWithInheritance/OliveName.java	(date 1528287814000)
++++ src/workingWithInheritance/OliveName.java	(date 1528287814000)
+@@ -0,0 +1,4 @@
++package workingWithInheritance;
++
++public class OliveName {
++}
+Index: src/StringComparison.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/StringComparison.java	(date 1524493852000)
++++ src/StringComparison.java	(date 1524493852000)
+@@ -0,0 +1,43 @@
++public class StringComparison {
++
++    public static void StringComparisonNotTheBest(String str1, String str2) {
++//        String str1 = "Hello";
++//        String str2= "Hello";
++
++        if (str1 == str2) {
++            System.out.println("They match!");
++        } else {
++            System.out.println("They don´t match!");
++        }
++    }
++
++    public static void StringComparisonBetter(String str1, String str2) {
++        if (str1.equalsIgnoreCase(str2)) {
++            System.out.println("They match!");
++        } else {
++            System.out.println("They don´t match!");
++        }
++    }
++
++    public static void ParsingStrings(String str1, String str2) {
++        System.out.println("Length of string: " + str1.length());
++        System.out.println(str1.contains(str2));
++    }
++
++    public static void IndexOf(String str6, String str1) {
++        int position = str6.indexOf(str1);
++        System.out.println("Position of substring: " + position);
++    }
++
++    public static void Substring(String str1, int substringStartsFromPosition){
++        String substring = str1.substring(substringStartsFromPosition);
++        System.out.println("Beginning of a substring: " + substring);
++    }
++
++    public static void Trim(String str1){
++        System.out.println(str1.trim());
++    }
++
++
++
++}
+Index: src/creatingCustomClasses/Main112CreatingAndInstantiationgCustomClasses_Calculator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/Main112CreatingAndInstantiationgCustomClasses_Calculator.java	(date 1528363370000)
++++ src/creatingCustomClasses/Main112CreatingAndInstantiationgCustomClasses_Calculator.java	(date 1528363370000)
+@@ -0,0 +1,50 @@
++package creatingCustomClasses;
++
++import java.util.Scanner;
++
++import static creatingCustomClasses.utilities.MathHelper.*;
++
++public class Main112CreatingAndInstantiationgCustomClasses_Calculator {
++
++    public static void main(String[] args) {
++        String s1 = getInput("Enter a numeric value: ");
++        String s2 = getInput("Enter a numeric value: ");
++        String op = getInput("Choose an operation (+ - * /): ");
++
++        double result = 0;
++
++        try {
++            switch (op) {
++                case "+":
++                    result = addValues(s1, s2);
++                    break;
++                case "-":
++                    result = substractValues(s1, s2);
++                    break;
++                case "*":
++                    result = multiplyValues(s1, s2);
++                    break;
++                case "/":
++                    result = divideValues(s1, s2);
++                    break;
++                default:
++                    System.out.println("Unrecognized operation!");
++                    return;
++            }
++            System.out.println("The answer is " + result);
++        } catch (Exception e) {
++            System.out.println("Number formatting exceptions " + e.getMessage());
++        }
++
++    }
++
++    public static String getInput(String prompt) {
++        System.out.println(prompt);
++        Scanner sc = new Scanner(System.in);
++        return sc.nextLine();
++    }
++}
++
++
++
++
+Index: src/creatingCustomClasses/Main113CreatingNestedAndAnonymousClasses_Calculator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/Main113CreatingNestedAndAnonymousClasses_Calculator.java	(date 1528367581000)
++++ src/creatingCustomClasses/Main113CreatingNestedAndAnonymousClasses_Calculator.java	(date 1528367581000)
+@@ -0,0 +1,75 @@
++package creatingCustomClasses;
++
++import java.util.Scanner;
++
++import static creatingCustomClasses.utilities.MathHelper.*;
++
++public class Main113CreatingNestedAndAnonymousClasses_Calculator {
++
++    public static void main(String[] args) {
++
++        //we can define classes, that are NESTED in other classes,
++        // and those classes are only available to their PARENT CLASSES
++
++        //instead of calling other method in this way, we want to create an instance of the calculator class
++        //calculate();
++
++        //we create an instance of a class
++        // and we instantiate it with NEW and the constructor method!!!!!!!
++        //notice that there is no explicit constructor defined in the code, but it is ok
++        //the java compiler creates no arguments constructor method for me
++        Main113CreatingNestedAndAnonymousClasses_Calculator calc = new Main113CreatingNestedAndAnonymousClasses_Calculator();
++        calc.calculate();
++    }
++    //we removed STATIC from it
++    //it is not static, it is INSTANCE METHOD NOW
++// a method, that now must be called from an instance of a class!!!!!!! instead of from the class definition itself!!!!!!!
++
++
++    protected void calculate() {
++// we instanciate it with NEW
++        InputHelper input = new InputHelper();
++        String s1 = input.getInput("Enter a numeric value: ");
++        String s2 = input.getInput("Enter a numeric value: ");
++        String op = input.getInput("Choose an operation (+ - * /): ");
++
++        double result = 0;
++
++        try {
++            switch (op) {
++                case "+":
++                    result = addValues(s1, s2);
++                    break;
++                case "-":
++                    result = substractValues(s1, s2);
++                    break;
++                case "*":
++                    result = multiplyValues(s1, s2);
++                    break;
++                case "/":
++                    result = divideValues(s1, s2);
++                    break;
++                default:
++                    System.out.println("Unrecognized operation!");
++                    return;
++            }
++            System.out.println("The answer is " + result);
++        } catch (Exception e) {
++            System.out.println("Number formatting exceptions " + e.getMessage());
++        }
++    }
++// we will make a nested class out of it
++    //we will wrap this method insede a class
++
++
++    // getInput is now an instance method of InputMethod class because we have removed static word
++    private class InputHelper{
++        public String getInput(String prompt) {
++            System.out.println(prompt);
++            Scanner sc = new Scanner(System.in);
++            return sc.nextLine();
++        }
++    }
++
++
++}
+Index: src/creatingCustomClasses/MainDeclaringAndUsingEnumTypes.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/MainDeclaringAndUsingEnumTypes.java	(date 1525034038000)
++++ src/creatingCustomClasses/MainDeclaringAndUsingEnumTypes.java	(date 1525034038000)
+@@ -0,0 +1,22 @@
++package creatingCustomClasses;
++
++public class MainDeclaringAndUsingEnumTypes {
++
++    public static void main(String[] args) {
++
++
++        System.out.println("Array of primitives:");
++
++
++        System.out.println("Array of strings:");
++
++
++        System.out.println("Setting an initial size");
++
++
++        System.out.println("Copying an array");
++
++
++
++    }
++}
+Index: src/creatingCustomClasses/MainDeclaringInstanceAndStaticMethods.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/MainDeclaringInstanceAndStaticMethods.java	(date 1525034026000)
++++ src/creatingCustomClasses/MainDeclaringInstanceAndStaticMethods.java	(date 1525034026000)
+@@ -0,0 +1,22 @@
++package creatingCustomClasses;
++
++public class MainDeclaringInstanceAndStaticMethods {
++
++    public static void main(String[] args) {
++
++
++        System.out.println("Array of primitives:");
++
++
++        System.out.println("Array of strings:");
++
++
++        System.out.println("Setting an initial size");
++
++
++        System.out.println("Copying an array");
++
++
++
++    }
++}
+Index: src/creatingCustomClasses/Main114StoringDataInInstanceVariables.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/Main114StoringDataInInstanceVariables.java	(date 1528877447000)
++++ src/creatingCustomClasses/Main114StoringDataInInstanceVariables.java	(date 1528877447000)
+@@ -0,0 +1,37 @@
++package creatingCustomClasses;
++
++import creatingCustomClasses.model.Olive;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class Main114StoringDataInInstanceVariables {
++
++    public static void main(String[] args) {
++
++//array list Olive, we instantiate it with new
++        //this is a collection
++        List<Olive> olives = new ArrayList<>();
++
++        // we declare one of the olives
++        Olive olive1 = new Olive();
++        //then we add an olive to the list
++        olives.add(olive1);
++
++        Olive olive2 = new Olive();
++        olives.add(olive2);
++        olive2.setOil(1);
++
++        Olive olive3 = new Olive();
++        olives.add(olive3);
++        olive3.setOil(4);
++
++        // we declare an instance of OlivePress class
++        //to the getOil method we pass in our olives collection
++        OlivePress114 press = new OlivePress114();
++        press.getOil(olives);
++
++        int totalOil = press.getOil(olives);
++        System.out.println("Total olive oil: " + totalOil);
++    }
++}
+Index: src/creatingCustomClasses/Main111UnderstandingEncaplulation.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/Main111UnderstandingEncaplulation.java	(date 1528292008000)
++++ src/creatingCustomClasses/Main111UnderstandingEncaplulation.java	(date 1528292008000)
+@@ -0,0 +1,36 @@
++package creatingCustomClasses;
++
++public class Main111UnderstandingEncaplulation {
++
++    public static void main(String[] args) {
++
++        //you package complex functionality for ease of programming
++        //to put all the code in one place - in main method - makes it difficult to manage
++// so instead you want to break the code in large classes
++        //grouping the functionality as the logic dictates
++        //advantages: access to individual functions can be restricted
++        //withing a class methods can be mapped as private, private, protected
++    // so only those part of application, that shall use that functionality, can access it
++        //each of that methods can hide high complex functionality
++        // all developers don´t need to know how it operates in background
++        //because each developer can write different module of application
++        // and one developer can publish api, so that it is used by other programmers
++        //when you encapsulate the functionality, you essentially hide the mechanism by which data is stored
++//you can store data in xml, and you create methods to read and write data
++        // but later you decide to change to json format#
++        //if you encapsulated correctly, other parts of application can still call that methods
++        //and it can reduce the risk of breaking the application
++        //makes code much more easier and maintenance of application much more successfull
++        //it is breaking the functionality down into a small maintanable units
++        // //and you are grouping the functionality and data together
++        // and wrapping it all out in java classes
++        // that you can then create instance of, call methods, access and modify the data and so on
++        // it is much easier to fix bugs when you are looking into a small amount of code
++        //breaking things into small pieces makes it also easier to test
++        // you can do something called unit testing
++
++
++
++
++    }
++}
+Index: src/workingWithInheritance/Kalamata.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/workingWithInheritance/Kalamata.java	(date 1528363146000)
++++ src/workingWithInheritance/Kalamata.java	(date 1528363146000)
+@@ -0,0 +1,7 @@
++package workingWithInheritance;
++
++public class Kalamata extends Olive {
++    public Kalamata(){
++//        super(OliveName.KALAMATA, OliveColor.PURPLE, 2);
++    }
++}
+Index: src/creatingCustomClasses/Main115UningConstructorMethods.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/Main115UningConstructorMethods.java	(date 1528878727000)
++++ src/creatingCustomClasses/Main115UningConstructorMethods.java	(date 1528878727000)
+@@ -0,0 +1,32 @@
++package creatingCustomClasses;
++
++import creatingCustomClasses.model.Olive;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class Main115UningConstructorMethods {
++
++    public static void main(String[] args) {
++
++
++        //when you create an instance of a class, you tyically use its construuctor methods
++        //in this code we are calling a constructor method 3 times
++
++            List<Olive> olives = new ArrayList<>();
++            Olive olive1 = new Olive();
++            olives.add(olive1);
++            Olive olive2 = new Olive();
++            olives.add(olive2);
++            olive2.setOil(1);
++            Olive olive3 = new Olive();
++            olives.add(olive3);
++            olive3.setOil(4);
++            OlivePress114 press = new OlivePress114();
++            press.getOil(olives);
++            int totalOil = press.getOil(olives);
++            System.out.println("Total olive oil: " + totalOil);
++
++
++    }
++}
+Index: src/creatingCustomClasses/utilities/MathHelper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/utilities/MathHelper.java	(date 1528363631000)
++++ src/creatingCustomClasses/utilities/MathHelper.java	(date 1528363631000)
+@@ -0,0 +1,39 @@
++package creatingCustomClasses.utilities;
++
++public class MathHelper {
++
++    //in this way, when we put these methods in a separate class, we make it easier to call it from other places of the application
++    // we could have put it in the same package, but one commot practise is to out it to subpackage
++    // this is a custom class - library of methods that we can call from anywhere
++
++// it is public and all of its methods are public
++
++    public static double addValues (String s1, String s2){
++        double d1 = Double.parseDouble(s1);
++        double d2 = Double.parseDouble(s2);
++        double result1 = d1 + d2;
++        return result1;
++    }
++
++    public static double substractValues(String s1, String s2){
++        double d1 = Double.parseDouble(s1);
++        double d2 = Double.parseDouble(s2);
++        double result2 = d1 - d2;
++        return result2;
++    }
++
++    public static double multiplyValues(String s1, String s2){
++        double d1 = Double.parseDouble(s1);
++        double d2 = Double.parseDouble(s2);
++        double result3 = d1 * d2;
++        return result3;
++    }
++
++    public static double divideValues(String s1, String s2){
++        double d1 = Double.parseDouble(s1);
++        double d2 = Double.parseDouble(s2);
++        double result4 = d1 / d2;
++        return result4;
++    }
++
++}
+Index: src/creatingCustomClasses/MainUsingStaticVariablesAsConstants.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/MainUsingStaticVariablesAsConstants.java	(date 1525034026000)
++++ src/creatingCustomClasses/MainUsingStaticVariablesAsConstants.java	(date 1525034026000)
+@@ -0,0 +1,22 @@
++package creatingCustomClasses;
++
++public class MainUsingStaticVariablesAsConstants {
++
++    public static void main(String[] args) {
++
++
++        System.out.println("Array of primitives:");
++
++
++        System.out.println("Array of strings:");
++
++
++        System.out.println("Setting an initial size");
++
++
++        System.out.println("Copying an array");
++
++
++
++    }
++}
+Index: src/creatingCustomClasses/MainVisualisingClassRelationships.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/creatingCustomClasses/MainVisualisingClassRelationships.java	(date 1528873592000)
++++ src/creatingCustomClasses/MainVisualisingClassRelationships.java	(date 1528873592000)
+@@ -0,0 +1,12 @@
++package creatingCustomClasses;
++
++public class MainVisualisingClassRelationships {
++
++    public static void main(String[] args) {
++
++//Use BlueJ to have a UML for your classes
++
++
++
++    }
++}
+Index: src/dataCollections/MainLoopingThroughCollectionsWithIteratorsForEach.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/dataCollections/MainLoopingThroughCollectionsWithIteratorsForEach.java	(date 1525034026000)
++++ src/dataCollections/MainLoopingThroughCollectionsWithIteratorsForEach.java	(date 1525034026000)
+@@ -0,0 +1,86 @@
++package dataCollections;
++
++import java.util.*;
++
++public class MainLoopingThroughCollectionsWithIteratorsForEach {
++
++    public static void main(String[] args) {
++
++        System.out.println("Ordered data:");
++        List<String> list = new ArrayList();
++        list.add("California");
++        list.add("Oregon");
++        list.add("Washington");
++
++        System.out.println("toString output");
++        System.out.println(list);
++        System.out.println("");
++
++        System.out.println("ArrayList iterator");
++        //iterator is similar to other collection interface, and that it takes generic anottation
++        // string - indicates what kind of data you are looping on
++        // then i call the list object and its iterator method
++        // and that returns a reference to an iterator obect that i can use to loop through the list
++        // in order to loop through the data that using an iterator you use 2 methods
++        //a method that return a boolean is called hasnext
++        //that indicates whether there is available data in object you are looping throug
++        //and then another method named next, that moved to the next available object and return the reference code
++
++        Iterator<String> iterator = list.iterator();
++        while (iterator.hasNext()) {
++            String value = iterator.next();
++            System.out.println(value);
++        }
++
++        System.out.println("");
++
++        //exactly the same result, but we do not need an additional object, that iterator requires
++        //more memory efficient and takes less code
++        System.out.println("ArrayList ForEach");
++        for (String value : list) {
++            System.out.println(value);
++        }
++        System.out.println("");
++
++
++        //doesn´t exist in android version of java and earlier versions of java
++        //println method accepts a string
++        //i am passing an object and the compiler says: each of the items in the list is string
++        //so it then calls a method for you and passes the lsting in
++        //in java 8 it is the most efficient, not in performance, but in amount of code you have to write
++
++        System.out.println("Java 8 method reference");
++        list.forEach(System.out::println);
++        System.out.println("");
++
++
++        //you can also loop in unordered data
++        System.out.println("Unordered data");
++        Map<String, String> map = new HashMap<>();
++        map.put("California", "Sacramento");
++        map.put("Oregon", "Salem");
++        map.put("Washington", "Olympia");
++        System.out.println(map);
++        System.out.println("");
++
++        //here the uniqueness is guarantied
++        //we create a Set and set the data type types of the items to String
++        //keyset method returns a set
++        //next we create an iterator and set a generic data type as string
++        System.out.println("HashMap iterator");
++        Set<String> keys = map.keySet();
++        Iterator<String> iterator1= keys.iterator();
++        while (iterator1.hasNext()){
++            String key= iterator1.next();
++            System.out.println("The capitaol of " + key + " is " + map.get(key));
++        }
++        System.out.println("");
++
++        System.out.println("HashMap ForEach");
++        for (String key : keys) {
++            System.out.println("The capitaol of " + key + " is " + map.get(key));
++        }
++        System.out.println("");
++        System.out.println("");
++    }
++}
+Index: src/dataCollections/MainManagingResizableArraysWithArrayList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/dataCollections/MainManagingResizableArraysWithArrayList.java	(date 1525034026000)
++++ src/dataCollections/MainManagingResizableArraysWithArrayList.java	(date 1525034026000)
+@@ -0,0 +1,45 @@
++package dataCollections;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class MainManagingResizableArraysWithArrayList {
++
++    public static void main(String[] args) {
++
++//list and map can contain as many items as we want.
++        //simple array can not
++        //diamond operator - withong it we decrale the type of operator we want to have in a list
++        //ArrayList<> - instead of creation a List as a constructor, we use implementing class or the concrete implementation of the class
++        // constractor method of an ArrayList class, not the List interface
++        // you can use constructor of List (interface) List<String> list = new List<>();
++        //but then you will need to write all its code
++        //arraylist - resizeable array, array is not resizable
++        //you can create an arraylist with no values, and then the values will be added
++        //if you already know how many items arraylist will have, you can pass an integer value
++        //you don´t have to pass a data type of items again - ArrayList<>
++        //this was introdiced in java7
++        //pior to java7 you would write ArrayList<String>
++        List<String> list = new ArrayList<>();
++
++        //lets add some items to the list
++        list.add("California");
++        list.add("Oregon");
++        list.add("Washington");
++
++        System.out.println(list);
++
++        list.add("Alaska");
++        System.out.println(list);
++
++        list.remove(0);
++        System.out.println(list);
++
++        String state = list.get(1);
++        System.out.println("The second state is: " + state);
++
++//how to find an item in a list
++        int pos = list.indexOf("Alaska");
++        System.out.println("Alaska is at position: " + pos);
++    }
++}
+Index: src/dataCollections/MainManagingUnorderedDataWithHashMap.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/dataCollections/MainManagingUnorderedDataWithHashMap.java	(date 1525034026000)
++++ src/dataCollections/MainManagingUnorderedDataWithHashMap.java	(date 1525034026000)
+@@ -0,0 +1,41 @@
++package dataCollections;
++
++import java.util.HashMap;
++import java.util.Map;
++
++public class MainManagingUnorderedDataWithHashMap {
++
++    public static void main(String[] args) {
++        //HashMap represents resizable unordered data collection
++        //ArrayList represents resizable ordered data collection
++        //Array is not resizable
++
++        //HashMap is an implementation of interface map
++        //each item in a map is a Key - Value pair
++        // key is usually a String, and Value - number/String/or any other sort of object
++        //we use diamond operator to declare the types of keys and values
++        // we use concrete implementation of the Map interface and it is a HashMap
++        Map<String, String> map = new HashMap<>();
++
++        //to add values we use method put
++        map.put("California", "Sacramento");
++        map.put("Oregon", "Salem");
++        map.put("Washington", "Olympia");
++        System.out.println(map);
++
++        map.put("Alaska", "Juneau");
++        System.out.println(map);
++        map.put("Ukraine", "Kiev");
++        System.out.println(map);
++
++        String capital = map.get("Ukraine");
++        System.out.println(capital);
++        String incorrect = map.get("Kiev");
++        System.out.println(incorrect);
++
++        map.remove("Ukraine");
++        System.out.println(map);
++
++
++    }
++}
+Index: src/dataCollections/MainSimpleArrays.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/dataCollections/MainSimpleArrays.java	(date 1525034026000)
++++ src/dataCollections/MainSimpleArrays.java	(date 1525034026000)
+@@ -0,0 +1,50 @@
++package dataCollections;
++
++import java.util.Arrays;
++
++public class MainSimpleArrays {
++
++    public static void main(String[] args) {
++        //to store ordered data in java
++        //array can point to any data: primitive or object
++
++        System.out.println("Array of primitives:");
++        //set of integers
++        //array is not resizable - once it is been set, its size cannot be changed
++        int[] ints = {7, 6, 9};
++        //or int inst[]
++        Arrays.sort(ints);
++        for (int i = 0; i < ints.length; i++) {
++            System.out.println(ints[i]);
++        }
++
++        System.out.println("Array of strings:");
++        String[] strings = {"Red", "Green", "Blue"};
++        Arrays.sort(strings);
++        for (String colour : strings) {
++            System.out.println(colour);
++        }
++
++        System.out.println("Setting an initial size");
++        //without declaring the values, you can set an initial size of an array
++        //number of items that i want to have available in the array
++        int[] sized = new int[10];
++        for (int i = 0; i < sized.length; i++) {
++            sized[i] = i * 100;
++        }
++
++        for (int value : sized) {
++            System.out.println(value);
++        }
++
++        System.out.println("Copying an array");
++        int[] copied = new int[5];
++        //initial array; beginning position, from where you need to copy;
++        // destination array; the beginning of dest array; the end of dest array
++        System.arraycopy(sized, 5, copied, 0, 5);
++        for (int value : copied) {
++            System.out.println(value);
++        }
++
++    }
++}
+Index: src/dataCollections/MainUsingTwoDimentionalArrays.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/dataCollections/MainUsingTwoDimentionalArrays.java	(date 1525034026000)
++++ src/dataCollections/MainUsingTwoDimentionalArrays.java	(date 1525034026000)
+@@ -0,0 +1,25 @@
++package dataCollections;
++
++public class MainUsingTwoDimentionalArrays {
++
++    public static void main(String[] args) {
++        String[][] table = new String[3][2];
++        table[0][0] = "California";
++        table[0][1] = "Sacramento";
++        table[1][0] = "Oregon";
++        table[1][1] = "Salem";
++        table[2][0] = "Washington";
++        table[2][1] = "Olympia";
++
++        for (int i = 0; i < table.length; i++) {
++            StringBuilder sb = new StringBuilder();
++            sb.append("The capital of ")
++                    .append(table[i][0])
++                    .append(" is ")
++                    .append(table[i][1])
++            .append(".");
++            System.out.println(sb);
++        }
++
++    }
++}
+Index: src/exceptionHandlingAndDebugging/MainDataCollections.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/exceptionHandlingAndDebugging/MainDataCollections.java	(date 1525034191000)
++++ src/exceptionHandlingAndDebugging/MainDataCollections.java	(date 1525034191000)
+@@ -0,0 +1,34 @@
++package exceptionHandlingAndDebugging;
++
++public class MainDataCollections {
++
++    public static void main(String[] args) {
++        String welcome = "Welcome!";
++        char[] chars = welcome.toCharArray();
++        try {
++
++            if (chars.length <10) {
++                throw (new Exception("My custom message!"));
++            }
++            char lastChar = chars[chars.length-1];
++            System.out.println(lastChar);
++
++            String sub = welcome.substring(10);
++
++        } catch (ArrayIndexOutOfBoundsException e) {
++//            e.printStackTrace();
++            System.out.println("Array Index problem!");
++        } catch (StringIndexOutOfBoundsException e){
++            System.out.println("String Index problem!");
++        } catch (Exception e) {
++            System.out.println(e.getMessage());
++        }
++
++
++        String welcome2 = "Welcome!";
++        char[] chars2 = welcome2.toCharArray();
++        for (int i = 0; i < chars2.length; i++) {
++            System.out.println(chars2[i]);
++        }
++    }
++}
+Index: src/managingProgrammFlow/MainMethodsOverloading.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/managingProgrammFlow/MainMethodsOverloading.java	(date 1525034268000)
++++ src/managingProgrammFlow/MainMethodsOverloading.java	(date 1525034268000)
+@@ -0,0 +1,61 @@
++package managingProgrammFlow;
++
++import java.util.Scanner;
++
++public class MainMethodsOverloading {
++
++    //distinguish methods by number and data types of arguments
++
++    public static void main(String[] args) {
++        String s1 = getInput("Enter value 1:");
++        String s2 = getInput("Enter value 2:");
++        String s3 = getInput("Enter value 3:");
++
++        double result = addValues(s1, s2);
++        double result2 = addValues(s1, s2, s3);
++        double result3 = addValues(s1, s2, s3, s1, s2, s3);
++
++        System.out.println("The answer is: " + addValues(s1, s2));
++        System.out.println("The answer for 3 valies is: " + addValues(s1, s2, s3));
++        System.out.println("The answer for many valies is: " + addValues(s1, s2, s3, s1, s2, s3));
++    }
++    //both are static so that they can be called from static main method
++    //both methods return something
++
++    public static String getInput(String prompt) {
++        System.out.println(prompt);
++        Scanner sc = new Scanner(System.in);
++        return sc.nextLine();
++    }
++
++    //both methods shall have a different signature, so theat they can be distinguished one from another
++    static double addValues(String s1, String s2) {
++        double d1 = Double.parseDouble(s1);
++        double d2 = Double.parseDouble(s2);
++        double result = d1 + d2;
++        return result;
++    }
++
++    // method name is dimmed out - from intellij that that method is not yet called anywhere in my code
++    static double addValues(String s1, String s2, String s3) {
++        double d1 = Double.parseDouble(s1);
++        double d2 = Double.parseDouble(s2);
++        double d3 = Double.parseDouble(s3);
++        double result = d1 + d2 + d3;
++        return result;
++    }
++
++    //that means that the user can pass as many values as they want
++    // this method can be called with any number of arguments
++    static double addValues(String... values) {
++        double result = 0;
++        for (String value : values) {
++            double d = Double.parseDouble(value);
++            // += means "add this to the existing value"
++            result += d;
++        }
++        return result;
++    }
++
++
++}
+\ No newline at end of file
+Index: src/usingCommonJavaLibraries/MainManagingFilesWithApacheCommonFileUtils.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/usingCommonJavaLibraries/MainManagingFilesWithApacheCommonFileUtils.java	(date 1525034144000)
++++ src/usingCommonJavaLibraries/MainManagingFilesWithApacheCommonFileUtils.java	(date 1525034144000)
+@@ -0,0 +1,22 @@
++package usingCommonJavaLibraries;
++
++public class MainManagingFilesWithApacheCommonFileUtils {
++
++    public static void main(String[] args) {
++
++
++        System.out.println("Array of primitives:");
++
++
++        System.out.println("Array of strings:");
++
++
++        System.out.println("Setting an initial size");
++
++
++        System.out.println("Copying an array");
++
++
++
++    }
++}
+Index: src/usingCommonJavaLibraries/MainManagingFilesWithJava7sNewIOLibrary.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/usingCommonJavaLibraries/MainManagingFilesWithJava7sNewIOLibrary.java	(date 1525034144000)
++++ src/usingCommonJavaLibraries/MainManagingFilesWithJava7sNewIOLibrary.java	(date 1525034144000)
+@@ -0,0 +1,22 @@
++package usingCommonJavaLibraries;
++
++public class MainManagingFilesWithJava7sNewIOLibrary {
++
++    public static void main(String[] args) {
++
++
++        System.out.println("Array of primitives:");
++
++
++        System.out.println("Array of strings:");
++
++
++        System.out.println("Setting an initial size");
++
++
++        System.out.println("Copying an array");
++
++
++
++    }
++}
+Index: src/usingCommonJavaLibraries/MainManagingFilesWithOriginalFileClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/usingCommonJavaLibraries/MainManagingFilesWithOriginalFileClass.java	(date 1525034144000)
++++ src/usingCommonJavaLibraries/MainManagingFilesWithOriginalFileClass.java	(date 1525034144000)
+@@ -0,0 +1,22 @@
++package usingCommonJavaLibraries;
++
++public class MainManagingFilesWithOriginalFileClass {
++
++    public static void main(String[] args) {
++
++
++        System.out.println("Array of primitives:");
++
++
++        System.out.println("Array of strings:");
++
++
++        System.out.println("Setting an initial size");
++
++
++        System.out.println("Copying an array");
++
++
++
++    }
++}
+Index: src/usingCommonJavaLibraries/MainReadingATextFileOverTheInternet.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/usingCommonJavaLibraries/MainReadingATextFileOverTheInternet.java	(date 1525034144000)
++++ src/usingCommonJavaLibraries/MainReadingATextFileOverTheInternet.java	(date 1525034144000)
+@@ -0,0 +1,22 @@
++package usingCommonJavaLibraries;
++
++public class MainReadingATextFileOverTheInternet {
++
++    public static void main(String[] args) {
++
++
++        System.out.println("Array of primitives:");
++
++
++        System.out.println("Array of strings:");
++
++
++        System.out.println("Setting an initial size");
++
++
++        System.out.println("Copying an array");
++
++
++
++    }
++}
+Index: src/workingWithInheritance/MainCreatingAndImplementingInterfaces.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/workingWithInheritance/MainCreatingAndImplementingInterfaces.java	(date 1528287367000)
++++ src/workingWithInheritance/MainCreatingAndImplementingInterfaces.java	(date 1528287367000)
+@@ -0,0 +1,56 @@
++package workingWithInheritance;
++
++public class MainCreatingAndImplementingInterfaces {
++
++    private double volume;
++    private boolean crushed = false;
++
++    public double getVolume() {
++        double c;
++        c = 0;
++        return c;
++    }
++
++    public void setVolume() {
++        //
++    }
++
++    public void crush() {
++        this.crushed = true;
++    }
++
++    public static void main(String[] args) {
++
++
++
++        // Java supports simple inheritance
++        // Each class can extend only one direct superclass
++        // Classes can implement multiple interfaces
++
++        // Inheritance relationship can be described as
++        // Parent-Child
++        // Base - Derived
++        // Superclass - Subclass - the most commonly used in Java world
++
++        // Polymorphysm means that the oblect can be addressed as either its supertype or its native or subtype
++        // List is interface, ArrayList implements an interface List
++        // I can declare an object as a List, but then instantiate it as ArrayList
++        // it is an ArrayList, but it is also a List
++
++        // we can write methods, that accepts sypertype as argument
++        // and then you can take an object that is natively an instance of the subtype and pass it to that method
++        // and that allows us to create a code that is highly flexible and very very reusable
++
++        // you can think of the method that accepts a supertype as an argument as a contract of a sort
++        //it is saying: as long as this objects extends the superclass, i will accept it, because that is a guarantee that
++        // the subclass will implement the functionality that i am looking for
++        // this is known as contract based programmimng
++
++        // superclass. if it is not FINAL, it can be extended
++        // all fields and methods of superclass can be inherited, unless thez are marked as PRIVATE
++        // THE MOST COMMON PRACTISE: mark fields private and then create GETTERS and SETTERS and make them public
++        //and make other custom methods as thez are needed and mark them PUBLIC or PROTECTED to allow them to be called from other methods of the application
++
++
++    }
++}
