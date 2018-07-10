@@ -1,0 +1,94 @@
+
+
+
+
+a = a + 4;
+a += 4;
+
+
+a = a + 1;
+a++; //unary operator
+
+a = a - 1;
+a--; //also unary operator
+
+
+a=5;
+a++; //grab the original value; then add one
+++a; //add one to the value
+//same result but different order
+
+var a =1;
+console.log(a); //1
+console.log(++a); //2
+console.log(a++); //2 - здесь мы сначала вывели значение а, это два, а только потом мф прибавили 1, но не вывели его
+console.log(a); //3
+
+var a =4;
+var b="5";
+var sum=a+b = 45 //java script thinks it is a string, only operator that also works for strings
+
+
+
+var a =4;
+var b="5";
+var subs=a-b  // -1 //java script: i see you are usung minus, it means it is number
+var mult=a*b // 20
+var div=a/b // 0.8
+// 7/"duck" -> NaN- means you try to do math with a number
+
+// = this is assignment
+// == here we check quality, if a contains the same value as b
+
+
+var a = 5;
+var b = 4;
+var theNumbersMatch
+
+if ( a == b ) {                     // try also =
+    theNumbersMatch = true;
+} else {
+    theNumbersMatch = false;
+}
+
+console.log(theNumbersMatch);
+
+
+
+var a = 5;
+var b = "5";
+var theNumbersMatch
+
+if ( a == b ) {                     // java script will understand that first 5 is also a string and will return true
+    theNumbersMatch = true;         // also try === this is "absolute scrict equality" - the content of variable a equals the contents of variable b, it will return false for 5 and "5"
+} else {
+    theNumbersMatch = false;
+}
+
+console.log(theNumbersMatch);
+
+// != not equals
+// !== not strict equality - if a is not identical to b
+// if (a) equalt to if (a==true)
+// if (a00false) equalt to if (a !=true) or if (!a)
+
+
+//ternary operator
+a == b ? console.log("Match") : console.log("No match"); // means
+//
+if (a ==b) {
+    console.log("Match");
+} else {
+    console.log("No Match");
+}
+
+
+//array
+var pens;
+pens = ["red", "green", "orange"];
+//or
+pens = new Array("red", "green", "orange");
+console.log(pens);
+
+
+var mixedBag = ["keys", 5, false, 56]
