@@ -7,13 +7,6 @@ import java.util.List;
 public class Main112 {
 
     public static void main(String[] args) {
-        new Thread(()-> {
-            System.out.println("Printing from the Runnable");
-            System.out.println("Line 2");
-            System.out.format("This is line %d\n", 3);
-        }).start();
-
-
         Employee john = new Employee("John Doe", 30);
         Employee tim = new Employee("Tim Buchalka", 21);
         Employee jack = new Employee("Jack Hill", 40);
@@ -34,11 +27,20 @@ public class Main112 {
 
 
         //here is our lambda!!!!
-        Collections.sort(employees, (Employee employee1, Employee employee2)) ->
-        employee1.getName().compareTo(employee2.getName());
+        //three parts which lambda consists of:
+        //1. argument list, 2 parameters in our case (Employee employee1, Employee employee2)
+        //2. arrow token
+        //3. the body
+        //lambda here is an argument, we split it on two lines
 
+        Collections.sort(employees, (Employee employee1, Employee employee2) ->
+        employee1.getName().compareTo(employee2.getName()));
 
-        for(Employee employee : employees) {
+// we can rewrite the upper lines in
+//        Collections.sort(employees, (employee1, employee2) ->
+//                employee1.getName().compareTo(employee2.getName()));
+
+        for (Employee employee : employees) {
             System.out.println(employee.getName());
         }
     }

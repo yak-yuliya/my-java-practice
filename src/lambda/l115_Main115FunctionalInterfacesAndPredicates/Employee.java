@@ -1,4 +1,4 @@
-package lambda.l115;
+package lambda.l115_Main115FunctionalInterfacesAndPredicates;
 
 public class Employee {
     private String name;

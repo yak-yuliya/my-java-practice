@@ -1,6 +1,6 @@
-package lambda.l116;
+package lambda.l116_PredicatesAndSuppliers;
 
-import lambda.l115.Employee;
+import lambda.l115_Main115FunctionalInterfacesAndPredicates.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,6 +28,12 @@ public class Main116PredicatesAndSuppliers {
 
             printEmployeesByAge(employees, "Employees over 30", employee -> employee.getAge() > 30);
             printEmployeesByAge(employees, "\nEmployees 30 and under", employee ->employee.getAge() <= 30);
+
+            //here intllij has created an anonimous class for us
+            //with already overwritten boolean Test
+            //all we need to do is to return an expression
+            //and expression needs to be true for whatever we need
+
             printEmployeesByAge(employees, "\nEmployees younger than 25", new Predicate<Employee>() {
                 @Override
                 public boolean test(Employee employee) {
@@ -35,13 +41,19 @@ public class Main116PredicatesAndSuppliers {
                 }
             });
 
+            //lets add a predicate, which tests whether an integer is greater than 15
+
             IntPredicate greaterThan15 = i -> i > 15;
             IntPredicate lessThan100 = i -> i < 100;
+            //this predicate doesnßt do anything, it shall be used somewhere
+            IntPredicate lessThan3000 = i -> i < 3000;
+
 
             System.out.println(greaterThan15.test(10));
             int a = 20;
             System.out.println(greaterThan15.test(a + 5));
 
+            //wow, this is really interesting writing!!!!
             System.out.println(greaterThan15.and(lessThan100).test(50));
             System.out.println(greaterThan15.and(lessThan100).test(15));
 
@@ -67,3 +79,5 @@ public class Main116PredicatesAndSuppliers {
             }
         }
     }
+    //we dont have to use lambda expressions, we can always use anonymous class
+

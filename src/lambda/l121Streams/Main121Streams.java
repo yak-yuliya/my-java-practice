@@ -1,6 +1,6 @@
 package lambda.l121Streams;
 
-import lambda.l115.Employee;
+import lambda.l115_Main115FunctionalInterfacesAndPredicates.Employee;
 
 import java.util.ArrayList;
 import java.util.Arrays;
