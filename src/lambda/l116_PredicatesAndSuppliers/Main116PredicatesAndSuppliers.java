@@ -54,6 +54,9 @@ public class Main116PredicatesAndSuppliers {
             System.out.println(greaterThan15.test(a + 5));
 
             //wow, this is really interesting writing!!!!
+            //test will return true, if both predicates return true
+            //and test will return false if at least one predicate will return false
+
             System.out.println(greaterThan15.and(lessThan100).test(50));
             System.out.println(greaterThan15.and(lessThan100).test(15));
 

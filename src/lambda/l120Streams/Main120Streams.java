@@ -35,11 +35,15 @@ public class Main120Streams {
             Stream<String> ioNumberStream = Stream.of("I26", "I17", "I29", "O71");
             Stream<String> inNumberStream = Stream.of("N40", "N36", "I26", "I17", "I29", "O71");
             Stream<String> concatStream = Stream.concat(ioNumberStream, inNumberStream);
-            System.out.println("-----------------------");
+            //concat method is a static so we cannot use it in a stream, but we can use it before
+            // System.out.println("-----------------------");
+            //System.out.println(concatStream.count());
+
             System.out.println(concatStream
-                    .distinct()
-                    .peek(System.out::println)
+                    .distinct() //removes duplicate from stream
+                    .peek(System.out::println) //can we print out our items but without ending a stream?
                     .count());
 
+            //System.out.println(concatStream.count());
         }
     }

@@ -1,10 +1,26 @@
-package managingProgrammFlow;
+package managingProgrammFlow_Overloading_Overriding;
 
 import java.util.Scanner;
 
 public class MainMethodsOverloading {
+    //overloading - providing two or more separate methods in a class with same name
+    //but different paramethers
+
+    //method return type may or may not be different and it allows us to reuse same method name
+    //we can overload static and instance methods
+
+    //overloading is very handy, it reduces duplicated code
 
     //distinguish methods by number and data types of arguments
+
+    //usually overloading happens inside of single class, but
+    //method can also be treated as overloaded in the subclass of that class
+    //because subclass inherits one version of a method of parent class
+
+    //hte may or my not have:
+    //-different rerurn types
+    //-different access modifiers
+    //-throw different checked or unchecked exceptions
 
     public static void main(String[] args) {
         String s1 = getInput("Enter value 1:");
