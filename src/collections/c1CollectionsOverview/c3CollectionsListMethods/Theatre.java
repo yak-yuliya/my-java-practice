@@ -2,11 +2,9 @@ package collections.c1CollectionsOverview.c3CollectionsListMethods;
 
 import java.util.*;
 
-/**
- * Created by dev on 2/12/2015.
- */
 public class Theatre {
     private final String theatreName;
+    //we also make here public
     public List<Seat> seats = new ArrayList<>();
 
     public Theatre(String theatreName, int numRows, int seatsPerRow) {
@@ -26,6 +24,9 @@ public class Theatre {
     }
 
     public boolean reserveSeat(String seatNumber) {
+        //binary search code
+        //
+
         int low = 0;
         int high = seats.size()-1;
 
@@ -53,6 +54,7 @@ public class Theatre {
             System.out.println(seat.getSeatNumber());
         }
     }
+    //we make it public instead of private
 
     public class Seat implements Comparable<Seat> {
         private final String seatNumber;

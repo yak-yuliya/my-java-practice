@@ -2,14 +2,20 @@ package collections.c1CollectionsOverview;
 
 public class Main {
 
+    //
+
     public static void main(String[] args) {
 	    Theatre theatre = new Theatre("Olympian", 8, 12);
-//        theatre.getSeats();
+        theatre.getSeats();
         if(theatre.reserveSeat("H11")) {
             System.out.println("Please pay");
         } else {
             System.out.println("Sorry, seat is taken");
         }
+
+        //we duplicated code here, to see that if seat is reserved
+        // with first part of the code, then the code works correctly, saying that seat is reserved
+
         if(theatre.reserveSeat("H11")) {
             System.out.println("Please pay");
         } else {

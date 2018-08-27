@@ -6,6 +6,10 @@ import java.util.List;
 
 public class Main {
 
+    //we can create our own classes which we can use in our sorted collections
+    //in previous videos we implemeneted Comparable which we used to sort our lists
+    //
+
     public static void main(String[] args) {
 	    Theatre theatre = new Theatre("Olympian", 8, 12);
 
@@ -42,6 +46,7 @@ public class Main {
 
     public static void printList(List<Theatre.Seat> list) {
         for(Theatre.Seat seat : list) {
+            //we also print price here, so we have added it + " $" + seat.getPrice()
             System.out.print(" " + seat.getSeatNumber() + " $" + seat.getPrice());
         }
         System.out.println();

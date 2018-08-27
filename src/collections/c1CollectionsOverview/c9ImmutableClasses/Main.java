@@ -4,6 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+//immutable classes cant be changed once they are created
+//we might want instances of our class to be immutable
+//developers might not know implications of changes of objects if they are allowed to do that (macros in excel, third party plugins, etc.)
+//
+
 public class Main {
     private static Map<Integer, Location> locations = new HashMap<Integer, Location>();
 

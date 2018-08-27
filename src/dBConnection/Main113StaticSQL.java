@@ -13,17 +13,13 @@ public class Main113StaticSQL {
 	
 	public static void main(String[] args) throws SQLException {
 		
-		Connection conn = null;
+
 		
-		try {
-			conn = DriverManager.getConnection(CONN_STRING, USERNAME, PASSWORD);
+		try(Connection conn = DriverManager.getConnection(CONN_STRING, USERNAME, PASSWORD);) {
+			conn.getCatalog();
 			System.out.println("Connected!");
 		} catch (SQLException e) {
 			System.err.println(e);
-		} finally {
-			if (conn != null) {
-				conn.close();
-			}
 		}
 		
 	}

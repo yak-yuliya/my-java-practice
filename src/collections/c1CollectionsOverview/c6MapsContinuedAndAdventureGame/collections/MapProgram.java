@@ -37,6 +37,14 @@ public class MapProgram {
             System.out.println("Algol not removed, key/value pair not found");
         }
 
+        //we passing a key, an old value and the new value
+        //it will work if value only exists
+        //the key and value can be not strings, but any objects. the key can be map as well
+        //or you can add a map as a value to itself, which is probably not a good idea
+
+        //immutable objects - objects like strings and integers whos values cannot change
+        // we can change the value that variable holds, but we do not change the string
+
         if(languages.replace("Lisp", "Therein lies madness", "a functional programming language with imperative features")) {
             System.out.println("Lisp replaced");
         } else {

@@ -3,9 +3,7 @@ package collections.c1CollectionsOverview.c5Maps;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by dev on 8/12/2015.
- */
+
 public class MapProgram {
 
     public static void main(String[] args) {
