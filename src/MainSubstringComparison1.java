@@ -55,7 +55,7 @@ public class MainSubstringComparison1 {
         String[] substrings = new String[s.length() - k + 1];
 
         for (int i = 0; i <= s.length() - k; i++) {
-            // Add a substring of length 'k' to our array
+            // Add a subs   tring of length 'k' to our array
             substrings[i] =  s.substring(i, i + k);
         }
 
