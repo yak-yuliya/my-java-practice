@@ -19,9 +19,9 @@ a++; //grab the original value; then add one
 //same result but different order
 
 var a =1;
-console.log(a); //1
+console.log(a); //pack1
 console.log(++a); //2
-console.log(a++); //2 - здесь мы сначала вывели значение а, это два, а только потом мф прибавили 1, но не вывели его
+console.log(a++); //2 - здесь мы сначала вывели значение а, это два, а только потом мф прибавили pack1, но не вывели его
 console.log(a); //3
 
 var a =4;
@@ -32,7 +32,7 @@ var sum=a+b = 45 //java script thinks it is a string, only operator that also wo
 
 var a =4;
 var b="5";
-var subs=a-b  // -1 //java script: i see you are usung minus, it means it is number
+var subs=a-b  // -pack1 //java script: i see you are usung minus, it means it is number
 var mult=a*b // 20
 var div=a/b // 0.8
 // 7/"duck" -> NaN- means you try to do math with a number

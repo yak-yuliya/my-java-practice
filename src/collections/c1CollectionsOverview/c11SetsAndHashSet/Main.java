@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         HeavenlyBody temp = new HeavenlyBody("Mercury", 88);
-        solarSystem.put(temp.getName(), temp);
+        solarSystem.put(temp.getName(), temp); // put in a Map, add in a Set
         planets.add(temp);
 
         temp = new HeavenlyBody("Venus", 225);
@@ -22,9 +22,10 @@ public class Main {
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
+        ///!!! This is second map
         HeavenlyBody tempMoon = new HeavenlyBody("Moon", 27);
         solarSystem.put(tempMoon.getName(), tempMoon);
-        temp.addMoon(tempMoon);
+        temp.addMoon(tempMoon); // satellite
 
         temp = new HeavenlyBody("Mars", 687);
         solarSystem.put(temp.getName(), temp);
@@ -95,7 +96,10 @@ public class Main {
             System.out.println("\t" + moon.getName());
         }
 
-
+        System.out.println(temp.getName());
+        System.out.println(temp.getSatellites());
+        System.out.println(tempMoon.getName());
+        System.out.println(tempMoon.getSatellites());
 
     }
 }

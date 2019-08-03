@@ -34,8 +34,8 @@ public class Main121Streams_FlatmapAndLambdaBestPractices {
                     .sorted()
                     .forEach(System.out::println);
 
-            //1.
-            System.out.println("1 -----------------------");
+            //pack1.
+            System.out.println("pack1 -----------------------");
 
             Stream<String> ioNumberStream = Stream.of("I26", "I17", "I29", "O71");
             Stream<String> inNumberStream = Stream.of("N40", "N36", "I26", "I17", "I29", "O71");
@@ -66,7 +66,7 @@ public class Main121Streams_FlatmapAndLambdaBestPractices {
 
             //2.
             // flatMap- is a function, that returns a stream,
-            //we come from 1 department object to 3 employee objects
+            //we come from pack1 department object to 3 employee objects
             //it is called flatMap, because it is often used to flatten nested lists
             //we use it, when list is not a source, but the object, containing a list is a source
             //and we use a method to create a list of all the objects in that list

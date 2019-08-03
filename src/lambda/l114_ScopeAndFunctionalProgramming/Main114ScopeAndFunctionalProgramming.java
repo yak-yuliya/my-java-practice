@@ -23,7 +23,7 @@ public class Main114ScopeAndFunctionalProgramming {
 
         //effectively final means - it must be declared final or its value must never be changed
 
-        //1. this is enhances for loop, it works
+        //pack1. this is enhances for loop, it works
         //enhanced for loop
         //each time it runs, it gives different result, because a thread might run at a different times
         //so one time John will be printed first, another time - second, etc.
@@ -32,7 +32,7 @@ public class Main114ScopeAndFunctionalProgramming {
         //on each iteration a new employee is created and its result is effectively final:
         //assigned once and never changes
 
-        System.out.println("1******************");
+        System.out.println("pack1******************");
 
         for (Employee employee : employees) {
             System.out.println(employee.getName());

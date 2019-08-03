@@ -93,7 +93,7 @@ public class Main {
         System.out.println(basket);
         System.out.println(stockList);
 
-//        temp = new StockItem("pen", 1.12);
+//        temp = new StockItem("pen", pack1.12);
 //        stockList.Items().put(temp.getName(), temp);
         StockItem car = stockList.Items().get("car");
         if(car != null) {

@@ -47,7 +47,7 @@ public class Main113LambdaExpressions_NestedBlocks {
 ////                return s1.toUpperCase() + s2.toUpperCase();
 ////            }
 ////        },
-////        employees.get(0).getName(), employees.get(1).getName());
+////        employees.get(0).getName(), employees.get(pack1).getName());
 ////        System.out.println(sillyString);
 
         UpperConcat uc = (s1, s2) -> {

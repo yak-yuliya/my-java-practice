@@ -51,7 +51,7 @@ public class MainList {
 //    Sample Input
 //
 //          5
-//        12 0 1 78 12
+//        12 0 pack1 78 12
 //        2
 //        Insert
 //        5 23
@@ -59,7 +59,7 @@ public class MainList {
 //        0
 //        Sample Output
 //
-//        0 1 78 12 23
+//        0 pack1 78 12 23
 
 //    Input Format
 //

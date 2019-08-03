@@ -16,9 +16,9 @@ public class Main119Streams {
 
         List<String> gNumbers = new ArrayList<>();
 
-        System.out.println("1 ==================");
+        System.out.println("pack1 ==================");
 
-        // 1.
+        // pack1.
         someBingoNumbers.forEach(number -> {
             if (number.toUpperCase().startsWith("G")) {
                 gNumbers.add(number);
@@ -56,7 +56,7 @@ public class Main119Streams {
                 .sorted()
                 .forEach(System.out::println);
 
-        //map method accepts a function, and function ccepts 1 argument and returns a value
+        //map method accepts a function, and function ccepts pack1 argument and returns a value
         //String object we use to map the method
         //similar lines
         //String upperString = myString.toUpperCase();

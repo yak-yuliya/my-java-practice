@@ -25,7 +25,7 @@ public final class HeavenlyBody {
         return orbitalPeriod;
     }
 
-    public boolean addMoon(HeavenlyBody moon) {
+    public boolean addMoon(HeavenlyBody moon) { //it does set of satellites, they are planets, but of specific type
         return this.satellites.add(moon);
     }
 

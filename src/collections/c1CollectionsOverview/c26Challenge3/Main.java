@@ -65,7 +65,7 @@ public class Main {
 
         System.out.println(stockList);
 
-//        temp = new StockItem("pen", 1.12);
+//        temp = new StockItem("pen", pack1.12);
 //        stockList.Items().put(temp.getName(), temp);
         stockList.Items().get("car").adjustStock(2000);
         stockList.get("car").adjustStock(-1000);
