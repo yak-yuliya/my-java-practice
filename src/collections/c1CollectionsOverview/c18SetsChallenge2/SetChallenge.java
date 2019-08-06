@@ -30,7 +30,7 @@ public class SetChallenge {
         can be almost every kind of HeavenlyBody).
 
         Test cases:
-        1. The planets and moons that we added in the previous video should appear in
+        pack1. The planets and moons that we added in the previous video should appear in
         the solarSystem collection and in the sets of moons for the appropriate planets.
 
         2. a.equals(b) must return the same result as b.equals(a) - equals is symmetric.

@@ -19,11 +19,11 @@ public class Main {
 //        Password password = new ExtendedPassword(pw);
 //        password.storePassword();
 //
-//        password.letMeIn(1);
+//        password.letMeIn(pack1);
 //        password.letMeIn(523266);
 //        password.letMeIn(9773);
 //        password.letMeIn(0);
-//        password.letMeIn(-1);
+//        password.letMeIn(-pack1);
 //        password.letMeIn(674312);
 
         System.out.println("Main method called");

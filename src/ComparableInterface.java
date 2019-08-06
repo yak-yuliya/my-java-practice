@@ -77,14 +77,14 @@ public class ComparableInterface implements Comparable {
 
         /* if i want to compare more values
         if (state1 < state2)
-            return -1;
+            return -pack1;
         else if (state1 > state2)
-            return 1;
+            return pack1;
 
         if (city1 < city2)
-            return -1;
+            return -pack1;
         else if (city1 > city2)
-            return 1;
+            return pack1;
         */
 
         return 0;

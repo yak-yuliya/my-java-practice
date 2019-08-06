@@ -28,7 +28,7 @@ public class Main112 {
 
         //here is our lambda!!!!
         //three parts which lambda consists of:
-        //1. argument list, 2 parameters in our case (Employee employee1, Employee employee2)
+        //pack1. argument list, 2 parameters in our case (Employee employee1, Employee employee2)
         //2. arrow token
         //3. the body
         //lambda here is an argument, we split it on two lines

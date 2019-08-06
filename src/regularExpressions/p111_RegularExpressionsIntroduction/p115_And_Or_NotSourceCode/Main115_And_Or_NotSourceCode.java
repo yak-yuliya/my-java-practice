@@ -81,9 +81,9 @@ public class Main115_And_Or_NotSourceCode {
             System.out.println(groupMatcher.matches());
             groupMatcher.reset();
 
-            while(groupMatcher.find()) {
-                System.out.println("Occurrence: " + groupMatcher.group(1));
-            }
+//            while(groupMatcher.find()) {
+//                System.out.println("Occurrence: " + groupMatcher.group(pack1));
+//            }
 
             String h2TextGroups = "(<h2>)(.+?)(</h2>)";
             Pattern h2TextPatten = Pattern.compile(h2TextGroups);
@@ -110,7 +110,7 @@ public class Main115_And_Or_NotSourceCode {
                 System.out.println("Occurrence " + count + " : " + tNotVMatcher.start() + " to " + tNotVMatcher.end());
             }
             // t(?=v)
-            // ^([\(]{1}[0-9]{3}[\)]{1}[ ]{1}[0-9]{3}[\-]{1}[0-9]{4})$
+            // ^([\(]{pack1}[0-9]{3}[\)]{pack1}[ ]{pack1}[0-9]{3}[\-]{pack1}[0-9]{4})$
             String phone1 = "1234567890";  // Shouldn't match
             String phone2 = "(123) 456-7890"; // match
             String phone3 = "123 456-7890"; // Shouldn't match

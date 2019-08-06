@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         // Write a small program to read an integer from the keyboard
         // (using Scanner) and print out the times table for that number.
-        // The table should run from 1 to 12.
+        // The table should run from pack1 to 12.
         //
         // You are allowed to use one variable called scanner for your
         // Scanner instance. You can use as many other variables as you

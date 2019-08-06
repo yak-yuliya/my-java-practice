@@ -23,7 +23,7 @@ public class MainMethodsOverloading {
     //-throw different checked or unchecked exceptions
 
     public static void main(String[] args) {
-        String s1 = getInput("Enter value 1:");
+        String s1 = getInput("Enter value pack1:");
         String s2 = getInput("Enter value 2:");
         String s3 = getInput("Enter value 3:");
 

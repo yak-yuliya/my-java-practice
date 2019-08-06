@@ -8,7 +8,7 @@ public class Main112ConnectMySQL {
     //driver contains Connection (will connect us to DB), ResultSet(incapsulates data returned from DB)
     //...
     //driver: mysql.com/downloads we find Connector/J
-    //download mysql-connector-java-5.1.46-bin.jar and copy it to clipboard
+    //download mysql-connector-java-5.pack1.46-bin.jar and copy it to clipboard
     //copy this jar file to Libs folder of project
     //  THEN ADD THIS JAR FILE TO PROJECT BUILD PATH - add this file to the libraries of the project
     // File - Project Structure - Libraries - add
@@ -53,7 +53,7 @@ public class Main112ConnectMySQL {
             System.out.println("Connected to DB!");
             System.out.println(stmt);
             System.out.println(rs);
-            System.out.println("Number of rows " + rs.getRow()); //how many rows are in the table of database - counting starts from 1, NOT from 0
+            System.out.println("Number of rows " + rs.getRow()); //how many rows are in the table of database - counting starts from pack1, NOT from 0
             System.out.println(rs);
 
         } catch (SQLException e) {

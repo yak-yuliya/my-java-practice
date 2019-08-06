@@ -7,7 +7,7 @@ package scope_final_and_static_statements.access_modifiers;
 // Challenge:
 // In the following interface declaration, what is the visibility of:
 //
-// 1. the Accessible interface?
+// pack1. the Accessible interface?
 // 2. the int variable SOME_CONSTANT?
 // 3. methodA?
 // 4. methodB and methodC?

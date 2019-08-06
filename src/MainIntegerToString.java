@@ -10,7 +10,7 @@ public class MainIntegerToString {
             int n = in.nextInt();
             in.close();
 
-            //1
+            //pack1
             //String s=???; Complete this line below
             String s = Integer.toString(n);
 

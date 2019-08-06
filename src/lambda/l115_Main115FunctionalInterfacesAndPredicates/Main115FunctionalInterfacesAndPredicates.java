@@ -26,14 +26,14 @@ public class Main115FunctionalInterfacesAndPredicates {
         employees.add(red);
         employees.add(charming);
 
-        //1. when we call forEach, it iterates over the list
-        //consumer accepts 1 parameter in, nothing out
+        //pack1. when we call forEach, it iterates over the list
+        //consumer accepts pack1 parameter in, nothing out
         //lambda takes one object - employee, it does something and doesnt return anything, it matches with the Consumer
-        //on each iteration, it calls Consumer method, passing 1 employee object as the parameter
+        //on each iteration, it calls Consumer method, passing pack1 employee object as the parameter
         //the employees name and age are printed in console and nothing is returned
         //the employee is consumed and iterator moves to the next employee
 
-        System.out.println("1 ==================");
+        System.out.println("pack1 ==================");
 
         employees.forEach(employee -> {
             System.out.println(employee.getName());

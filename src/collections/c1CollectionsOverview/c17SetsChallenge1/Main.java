@@ -30,7 +30,7 @@ public class Main {
 //        solarSystem.put(temp.getName(), temp);
 //        planets.add(temp);
 //
-//        tempMoon = new HeavenlyBody("Deimos", 1.3);
+//        tempMoon = new HeavenlyBody("Deimos", pack1.3);
 //        solarSystem.put(tempMoon.getName(), tempMoon);
 //        temp.addSatellite(tempMoon); // temp is still Mars
 //
@@ -42,7 +42,7 @@ public class Main {
 //        solarSystem.put(temp.getName(), temp);
 //        planets.add(temp);
 //
-//        tempMoon = new HeavenlyBody("Io", 1.8);
+//        tempMoon = new HeavenlyBody("Io", pack1.8);
 //        solarSystem.put(tempMoon.getName(), tempMoon);
 //        temp.addSatellite(tempMoon); // temp is still Jupiter
 //
@@ -50,7 +50,7 @@ public class Main {
 //        solarSystem.put(tempMoon.getName(), tempMoon);
 //        temp.addSatellite(tempMoon); // temp is still Jupiter
 //
-//        tempMoon = new HeavenlyBody("Ganymede", 7.1);
+//        tempMoon = new HeavenlyBody("Ganymede", 7.pack1);
 //        solarSystem.put(tempMoon.getName(), tempMoon);
 //        temp.addSatellite(tempMoon); // temp is still Jupiter
 //
