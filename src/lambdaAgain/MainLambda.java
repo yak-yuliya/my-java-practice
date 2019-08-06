@@ -1,8 +1,10 @@
 package lambdaAgain;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class MainLambda {
 
@@ -47,7 +49,7 @@ public class MainLambda {
     public static void usingMethodReferences() {
         List<Book> books = Books.allBooks();
 //        Collections.sort(books, Comparator.comparing(b -> b.getTitle())); //works or
-        Collections.sort(books, Comparator.comparing(Book:: getTitle));
+        Collections.sort(books, Comparator.comparing(Book::getTitle));
 
 //        books.forEach(book -> System.out.println(book)); //works or
         books.forEach(System.out::println);
@@ -70,13 +72,36 @@ public class MainLambda {
 //        System.out.println("========");
 //        usingLambdasInLongForm();
 //        System.out.println("========");
-        usingLambdasInShortForm();
-        System.out.println("========");
-        methodToStreamBooks();
-        System.out.println("========");
-        usingMethodReferences();
+//        usingLambdasInShortForm();
+//        System.out.println("========");
+//        methodToStreamBooks();
+//        System.out.println("========");
+//        usingMethodReferences();
 
+        List<String> ingredients = Arrays.asList("salt", "flour", "eggs", "butter", "milk", "baling powder");
+        for (
+                String ingredient : ingredients) {
+            if (ingredient.contains("eggs")) {
+                System.out.println("It has eggs!!!!!");
+            }
+        }
+
+        System.out.println("----------");
+
+
+
+        //what we want. not how we want it.
+
+        //declarative way!
+        //we made a new anonimous func and passed it to for each method
+
+        ingredients.forEach(new Consumer<String>() {
+            @Override
+            public void accept(String s) {
+                System.out.println(s);
+
+            }
+        });
+        System.out.println("////////////////");
     }
-
-
 }
