@@ -1,7 +1,7 @@
 package annotations;
 
 public class Cheese {
-    @Override
+    //@Override
     public String toString(String something){  //method does not override mehod from its superclass
         return "String cheese!";
     }
